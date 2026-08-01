@@ -1,1 +1,400 @@
-# resume
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parth Tekchandani Resume</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f3f3f3;
+    padding:30px;
+}
+
+.resume{
+    width:1000px;
+    margin:auto;
+    background:white;
+    padding:45px 50px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.name h1{
+    font-size:64px;
+    line-height:58px;
+    font-weight:800;
+    color:#0d1738;
+}
+
+.name h2{
+    margin-top:25px;
+    font-size:22px;
+    letter-spacing:1px;
+    color:#111;
+}
+
+.contact{
+    margin-top:18px;
+    line-height:28px;
+    font-size:18px;
+}
+
+.photo img{
+    width:165px;
+    height:165px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+.columns{
+    display:grid;
+    grid-template-columns:45% 50%;
+    gap:5%;
+    margin-top:45px;
+}
+
+.section{
+    margin-bottom:40px;
+}
+
+.section h3{
+    font-size:20px;
+    letter-spacing:1px;
+    margin-bottom:8px;
+}
+
+.line{
+    width:100%;
+    height:3px;
+    background:#111;
+    margin-bottom:22px;
+}
+
+.section p{
+    font-size:17px;
+    line-height:28px;
+}
+
+.education-item{
+    margin-bottom:35px;
+}
+
+.education-item h4{
+    font-size:22px;
+}
+
+.education-item em{
+    display:block;
+    margin:8px 0;
+}
+
+.education-item ul{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.education-item li{
+    margin:7px 0;
+}
+
+.skills ul{
+    margin-left:22px;
+}
+
+.skills li{
+    margin:9px 0;
+    font-size:17px;
+}
+
+.job{
+    margin-bottom:35px;
+}
+
+.job h4{
+    font-size:22px;
+}
+
+.company{
+    font-size:20px;
+    margin-top:4px;
+}
+
+.year{
+    margin:8px 0;
+    font-weight:bold;
+}
+
+.job ul{
+    margin-left:22px;
+}
+
+.job li{
+    margin:8px 0;
+    line-height:26px;
+}
+
+.additional{
+    margin-top:30px;
+}
+
+.additional h4{
+    letter-spacing:5px;
+    margin-bottom:10px;
+}
+
+@media print{
+body{
+    background:white;
+    padding:0;
+}
+.resume{
+    width:100%;
+    box-shadow:none;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="resume">
+
+<div class="header">
+
+<div class="name">
+
+<h1>
+PARTH TEKCHANDANI
+</h1>
+
+<div class="contact">
+
+<strong>Address:</strong> Airport Road, Ahmedabad, India<br>
+
+<strong>Email:</strong> tekchandaniparth2410@gmail.com<br>
+
+<strong>Contact No.</strong> 9054829307
+
+</div>
+
+</div>
+
+</div>
+
+<div class="columns">
+
+<!-- LEFT -->
+
+<div>
+
+<div class="section">
+
+<h3>PROFILE</h3>
+
+<div class="line"></div>
+
+<p>
+Entrepreneurial professional with expertise in customer support,
+operations, and business growth, currently spearheading an IT venture
+focused on project management and client strategy.
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>EDUCATION</h3>
+
+<div class="line"></div>
+
+<div class="education-item">
+
+<h4>Silver Oak University</h4>
+
+<em>BCA – Completed (Certification Pending)</em>
+
+<p>
+Computer Applications<br>
+CGPA: 7.8 / 10 (Till Last Semester)
+</p>
+
+</div>
+
+<div class="education-item">
+
+<h4>Sadhu Vaswani</h4>
+
+<em>Higher Secondary – Passed in 2021</em>
+
+<p>
+Science & Mathematics
+</p>
+
+<ul>
+<li>Participated in Science Fair Competitions</li>
+<li>Active member of the School Newspaper</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="section skills">
+
+<h3>SKILLS</h3>
+
+<div class="line"></div>
+
+<ul>
+
+<li>Project Management</li>
+
+<li>Client Communication</li>
+
+<li>Business Development</li>
+
+<li>Social Media Management</li>
+
+<li>HTML, CSS, JavaScript</li>
+
+<li>Next.js (Basic)</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div>
+
+<div class="section">
+
+<h3>WORK EXPERIENCE</h3>
+
+<div class="line"></div>
+
+<div class="job">
+
+<h4>Operator & Project Manager (IT Consultant / Product Management)</h4>
+
+<div class="company">Source Spark Tech</div>
+
+<div class="year">06/2024 – Present</div>
+
+<ul>
+
+<li>Leading project management and client outreach initiatives while building a strong social media presence.</li>
+
+<li>Successfully executing projects that drive operational efficiency and business growth.</li>
+
+</ul>
+
+</div>
+
+<div class="job">
+
+<h4>Business Growth Partner</h4>
+
+<div class="company">Procurpal</div>
+
+<div class="year">02/06/2023 – 20/11/2023</div>
+
+<ul>
+
+<li>Developed strategic partnerships that enhanced client relationships and regional market presence.</li>
+
+<li>Implemented innovative business solutions leading to a 30% increase in revenue.</li>
+
+</ul>
+
+</div>
+
+<div class="job">
+
+<h4>Lead Investigation Executive (Back Office)</h4>
+
+<div class="company">Oracle Claims Solutions</div>
+
+<div class="year">21/10/2022 – 04/06/2023</div>
+
+<ul>
+
+<li>Conducted verifications and handled stakeholder communication.</li>
+
+<li>Managed reporting across Tata, Reliance, and Aditya Birla.</li>
+
+</ul>
+
+</div>
+
+<div class="job">
+
+<h4>Customer Care Executive</h4>
+
+<div class="company">FirstSource Solutions</div>
+
+<div class="year">02/07/2022 – 06/09/2022</div>
+
+<ul>
+
+<li>Handled inbound banking queries with an 8/10 performance score.</li>
+
+<li>Managed high call volumes and customer satisfaction.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="section additional">
+
+<h3>ADDITIONAL EXPERIENCE</h3>
+
+<div class="line"></div>
+
+<h4>INTERNSHIP PROGRAM</h4>
+
+<p style="font-size:18px;letter-spacing:4px;margin:10px 0;">
+WEB DEVELOPMENT • SILVER OAK UNIVERSITY
+</p>
+
+<p><strong>Dec 2023 – Feb 2024</strong></p>
+
+<ul style="margin-left:20px;margin-top:10px;line-height:28px;">
+
+<li>
+Learned web development fundamentals and project structure.
+</li>
+
+<li>
+Built websites independently while improving communication and soft skills.
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
